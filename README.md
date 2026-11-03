@@ -5,7 +5,7 @@ Each day's file has a Claude-written TL;DR plus every headline, grouped by sourc
 
 ## Latest
 <!-- LATEST:START -->
-_First digest will appear after the workflow runs._
+- [2026-11-03](news/2026/11/2026-11-03.md)
 <!-- LATEST:END -->
 
 ## How It Works
