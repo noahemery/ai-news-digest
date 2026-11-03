@@ -1,0 +1,28 @@
+# Add/remove feeds freely. `max` caps items per feed per day (default 8).
+# A feed that 404s or blocks the runner is just listed under "Feeds that failed" in that day's file.
+categories:
+  - name: AI Labs
+    feeds:
+      - { name: OpenAI, url: "https://openai.com/news/rss.xml", max: 6 }
+      - { name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", max: 5 }
+      - { name: Google AI, url: "https://blog.google/technology/ai/rss/", max: 5 }
+      - { name: Hugging Face, url: "https://huggingface.co/blog/feed.xml", max: 5 }
+
+  - name: News
+    feeds:
+      - { name: TechCrunch AI, url: "https://techcrunch.com/category/artificial-intelligence/feed/", max: 10 }
+      - { name: The Verge AI, url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", max: 8 }
+      - { name: Ars Technica AI, url: "https://arstechnica.com/ai/feed/", max: 6 }
+      - { name: MIT Tech Review AI, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed", max: 5 }
+
+  - name: Builders & Community
+    feeds:
+      - { name: Simon Willison, url: "https://simonwillison.net/atom/everything/", max: 6 }
+      - { name: Hacker News (LLM, 100+ pts), url: "https://hnrss.org/newest?q=LLM&points=100", max: 8 }
+      - { name: Hacker News (AI, 150+ pts), url: "https://hnrss.org/newest?q=AI&points=150", max: 8 }
+      - { name: r/LocalLLaMA, url: "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day", max: 6 }
+
+  - name: Research
+    feeds:
+      - { name: arXiv cs.CL, url: "https://rss.arxiv.org/rss/cs.CL", max: 6 }
+      - { name: arXiv cs.LG, url: "https://rss.arxiv.org/rss/cs.LG", max: 6 }
