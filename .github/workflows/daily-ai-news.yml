@@ -31,8 +31,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Noah Emery"
+          git config user.email "230210035+noahemery@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
           git commit -m "AI news $(TZ=America/New_York date +%F)"
