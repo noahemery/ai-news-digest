@@ -5,6 +5,7 @@ Each day's file has a Claude-written TL;DR plus every headline, grouped by sourc
 
 ## Latest
 <!-- LATEST:START -->
+- [2026-11-08](news/2026/11/2026-11-08.md)
 - [2026-11-07](news/2026/11/2026-11-07.md)
 - [2026-11-06](news/2026/11/2026-11-06.md)
 - [2026-11-05](news/2026/11/2026-11-05.md)
